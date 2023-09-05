@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: DM Sans;
+}
+.container{
+    display: flex;
+}
+.side-bar{
+    background-color: #000000;
+    flex: 0.8; 
+    color: #FFFFFF;
+    padding: 20px;
+}
+.img-div{
+    margin-top: 0px;
+    width: 202px;
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+.img-div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+.scroll-1{
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.nav-links{
+    margin-top: 30px;
+}
+.nav-row{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 19px;
+}
+.nav-row>a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.nav-row:hover{
+    cursor: pointer;
+    background-color: #282828;
+}
+.nav-row>img{
+    width: 29px;
+    height: 25px;
+}
+.my-track{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 35px;
+}
+.create-playlist{
+    margin-top: 30px;
+}
+.install-div{
+    margin-top: 150px;
+    margin-bottom: 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 19px;
+}
+.install-div>a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.main-content{
+    background-color: #1F1F1F;
+    flex: 4;
+}
+.arrow{
+    
+}
+.arrow>i{
+    opacity: 0.5;
+    margin-inline: 10px;
+}
+.arrow>i:hover{
+    opacity: 1;
+}
+.capsul{
+    padding: 2px 10px;
+    border-radius: 30px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(10,10,10);
+}
+.main-nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #303030;
+}
+.scroll-2{
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.list-1{
+    margin-top: 35px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.item{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #303030;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+}
+.playlist-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-2{
+    margin-top: 35px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.list2-head{
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list2-head>p{
+    font-weight: 700;
+    font-size: 17px;
+    color: #B3B3B3;
+}
+.card-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    padding: 10px;
+    margin-inline: 10px;
+    margin-bottom: 20px;
+}
+.card>img{
+    height: 207px;
+    width: 207px;
+    border-radius: 14px;
+}
+.card>h4, .card>p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.player{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 90px;
+    background-color: #181818;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-1{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.row-1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.player-timeline {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+  }
+
+  .timeline-slider {
+    margin: 0 10px;
+    width: 40vw;
+  }
+
+  .timeline-slider{
+  -webkit-appearance: none;
+}
+  .timeline-slider:hover{
+  background-color: #1bd760;
+}
+
+.timeline-slider::-webkit-slider-runnable-track{
+  height: 4px;
+  background: #535353;
+  border: none;
+  border-radius: 100px;
+}
+
+.timeline-slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: -3px;
+  background: white;
+}
+
+  .div-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.div-3{
+    display: flex;
+    align-items: center;
+    padding-inline: 25px;
+    gap: 10px;
+}
